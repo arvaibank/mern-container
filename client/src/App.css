@@ -1,0 +1,240 @@
+.main-title {
+  background-color: #331C0E;
+  color: #FFF190;
+  font-size: 10vh;
+  text-align: center;
+}
+
+h1{
+  color: #FFF190;
+}
+.fade-out {
+  animation-name: fadeOut;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.header-btn {
+  background-color: #B9540C;
+  color: #FCFEF0;
+  font-size: 3vh;
+  padding: 1vh 2vh;
+  border: none;
+  border-radius: 2vh;
+  box-shadow: 0.5vh 0.5vh 0 #C38D5F;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: 1vh;
+}
+
+.header-btn:hover {
+  background-color: #FCFEF0;
+  color: #331C0E;
+  box-shadow: 1vh 1vh 0 #C38D5F;
+  transform: translate(-0.25vh, -0.25vh);
+}
+
+.header-btn:active {
+  background-color: #67331E;
+  color: #FFF190;
+  box-shadow: none;
+  transform: translate(0.25vh, 0.25vh);
+}
+.header-btn.fade-in {
+  opacity: 0; /* Set the initial opacity to 0 */
+  animation: fade-in 5s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.chatactercards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  height: 175%;
+  box-sizing: border-box;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+}
+
+.chatactercards img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.chatactercards h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.chatactercards h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.chatactercards p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.chatactercards button {
+  background-color: #8B0000;
+  color: #ffe0b6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.chatactercards button:hover {
+  background-color: #CD5C5C;
+}
+
+.chatactercards.Stark {
+  background-color: #3A3B3C;
+}
+
+.chatactercards.Targaryen {
+  background-color: #9F1D20;
+}
+
+.chatactercards.Tarly {
+  background-color: #5F5D5D;
+}
+
+.chatactercards.Tarth {
+  background-color: #FFB347;
+}
+
+.chatactercards.Naathi {
+  background-color: #9ACD32;
+}
+
+.chatactercards.Baelish {
+  background-color: #2E8B57;
+}
+
+.chatactercards.Unknown {
+  background-color: #7B8D8E;
+}
+
+.chatactercards.Seaworth {
+  background-color: #B8860B;
+}
+
+.chatactercards.Tyrell {
+  background-color: #4A7023;
+}
+
+.chatactercards.Folk {
+  background-color: #A9A9A9;
+}
+
+.chatactercards.Lorathi {
+  background-color: #8B008B;
+}
+
+.chatactercards.Mormont {
+  background-color: #1E90FF;
+}
+
+.chatactercards.Naharis {
+  background-color: #FF1493;
+}
+
+.chatactercards.Sparrow {
+  background-color: #CD5C5C;
+}
+
+.chatactercards.Viper {
+  background-color: #FF8C00;
+}
+
+.chatactercards.Sand {
+  background-color: #d2aa6d;
+}
+
+.chatactercards.Worm {
+  background-color: #4169E1;
+}
+
+.chatactercards.Qyburn {
+  background-color: #DC143C;
+}
+
+.chatactercards.Bronn {
+  background-color: #00BFFF;
+}
+
+.chatactercards.Clegane {
+  background-color: #2F4F4F;
+}
+
+.chatactercards.Greyjoy {
+  background-color: #008B8B;
+}
+
+.chatactercards.Lannister {
+  background-color: #DAA520;
+}
+
+.chatactercards.Baratheon {
+  background-color: #606060;
+}
+
+.chatactercards.Bolton {
+  background-color: #6B0C0C;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+body {
+  background: url('../src/img/The_Iron_Throne.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.searchField {
+  background-color: #B9540C;
+  color: white;
+  font-size: 3vh;
+  padding: 1vh 2vh;
+  border: none;
+  border-radius: 2vh;
+}
+
+.options:hover {
+  background-color: #B9540C;
+  width: fit-content;
+  border-radius: 10px;
+}
